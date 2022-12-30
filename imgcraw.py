@@ -9,7 +9,7 @@ options = webdriver.ChromeOptions()
 options.add_experimental_option("excludeSwitches", ["enable-logging"])   #오류대비 설정
 driver = webdriver.Chrome(options=options)
 
-word = str(input("insert keyword for searching : "))#검색어 입력
+word = str(input("검색어 : "))#검색어 입력
 driver.get("https://www.google.co.kr/imghp?hl=ko&authuser=0&ogbl")#구글(이미지) 검색 사이트
 driver.maximize_window()#웹브라우저 창 화면 최대화
 time.sleep(2)

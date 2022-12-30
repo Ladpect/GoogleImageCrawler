@@ -3,7 +3,6 @@ import time
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
 import urllib.request
-import time
 
 options = webdriver.ChromeOptions()   
 options.add_experimental_option("excludeSwitches", ["enable-logging"])   #오류대비 설정
